@@ -1,0 +1,449 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    color: white;
+  
+}
+hr{
+        height: 0.5px;
+        background-color: #3E4042;
+        border: none;
+        width: 58%;
+        margin-right: 40%;
+}
+body{
+    margin: 0 0;
+}
+h3{
+    color: #B0B3B8;
+    
+}
+input{
+    color: white;
+    word-spacing: 5px;  
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 40px;
+    background-color: #3A3B3C;
+    height: 40px;
+    border: 5px;
+}
+/* Header */
+
+header{
+    background-color: #242526;
+    height: 60px;
+    width: 100%;
+    
+    /*Header üstte kalması için*/
+    position: sticky;
+    top: 0;
+   
+}
+.header-bottom{
+    width: 100%;
+    height: 4px;
+    background-color: #8A8D91;
+   
+}
+/* Left */
+.left{
+    width:20%;
+    height: auto;
+    float: left;
+    
+}
+.left input{
+    margin-left: 5px;
+   
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 75%;
+    
+    padding-left: 25px;
+    
+   
+}
+.left input::placeholder{
+   color: #9EA1A6;
+}
+.left input:focus{
+    outline: none;
+    
+}
+.fc-logo{
+    width: 13%;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+}
+/* Center */
+.center{
+    display: flex;
+    height: auto;
+    width: 70%;
+    margin-left: 35%;
+    margin-right: 35%;  
+}
+.center .box{
+    width: 10%;
+    height: 60px;
+    display: inline-block;
+  
+    
+}
+.center .box:hover{
+    width: 10%;
+    height: 60px;
+    opacity: 0.8;
+   
+    display: inline-block;
+    background-color: gray;
+    border-radius: 10px;
+  
+    
+}
+.center .box a{
+    width: auto;
+    
+}
+
+.center .box a i{
+   
+    height: 60px;
+    margin-left: 35%;
+    margin-top: 10px;
+   
+    
+}
+/* Right */
+
+/* Header-bottom */
+.center1{
+    display: flex;
+    height: 3px;
+    width: 70%;
+    margin-left: 35%;
+     
+}
+.center1 .box1a{
+    width: 10%;
+    height: auto;
+    display: inline-block;
+    background-color:#1877f2;
+}
+/*Section*/
+section{
+   
+    background-color: #18191A; 
+
+    
+}
+#leftmenu{
+    
+    float: left;
+    margin-top: 4px;
+    width: 35%;
+    
+   
+}
+.leftmenu{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 300px;
+}
+.leftmenu:hover{
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #4b4f56;
+    
+
+}
+.leftmenu a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+} 
+
+.leftmenu a img{
+    float: left;
+    width: 10%;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+#leftmenu h3{
+    margin-left: 20px;
+}
+/*rightmenu*/
+#rightmenu{
+float: right;
+margin-top: 4px;
+width: 18%;
+}
+.rightmenuhr{
+        width: 90%;
+        margin-right: 10%;
+}
+/* Main */
+#main{
+    background-color: #18191A;
+    width: 100%;
+   
+}
+#main .stories{
+    
+    display: flex;
+    
+
+}
+#main .stories .card{
+    
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 13%;
+    background-color: #242526;
+    border-radius: 10px;
+
+}
+#main .stories .card .imgme{
+    width: 100%;
+   height: 60%;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+}
+#main .stories .card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: opacity 1.2s;
+}
+#main .stories .card img:hover{
+   opacity: 0.6;
+}
+#main .stories .card p{
+   color: white;
+   margin-left:8px ;
+  
+}
+/*links*/
+.links {
+    margin-top: 100px;
+    margin-left: 30px;
+    color: gray;
+}
+.links a{
+    color: gray;
+}
+/*content*/
+.content{
+    width: 33%;
+    background-color: #242526;
+    height: 150px;
+    margin-left: 665px;
+    margin-right: 600px;
+    border-radius: 10px;
+}
+.content .contenthr{
+    display: flex;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.content .topcontent{
+  margin-top: 15px;
+ 
+}
+.content .topcontent img{
+    width: 8%;
+    margin-top: 8px;
+    margin-left: 20px;
+    border-radius: 50px;
+    float: left;
+}
+.content .topcontent input{ 
+    width: 527px; 
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.content .topcontent input::placeholder{
+    color: #9EA1A6;
+    
+ }
+.content .topcontent input:focus{
+   outline: none;
+}
+
+.content .bottomcontent .elements{
+    display: flex;
+   
+}
+.content .bottomcontent .elements .element{
+    display: flex;
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.content .bottomcontent .elements .elementimg{
+    margin-left: 30px;
+    width: 20%;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+.content .bottomcontent .elements .elementa{
+  
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 80%;
+}
+.content .bottomcontent .elements .element:hover{
+     
+    border-radius: 8px;
+    padding-left: 4px;
+    background-color: #4b4f56;
+ }
+.content .bottomcontent .elements img{
+    width: 50px;
+    float: left;
+     
+ }
+.content .bottomcontent .elements a{
+   
+    text-decoration: none;
+    margin-top: 20px;  
+ }
+/*Share*/
+#share{
+    
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.paylasimlar{
+    
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #242526;
+    width: 51%;
+   
+}
+.paylasimlar .paylasimlartop{
+    
+   display: flex;
+   
+}
+
+.paylasimlar .paylasimlartop div{
+    
+   margin: 10px;
+    
+ }
+ .paylasimlar .paylasimlartop .paylasimlartopimg{
+    
+   width: 10%;
+     
+  }
+  .paylasimlar .paylasimlartop .paylasimlartopimg .rsmkullanici{
+    
+    margin-top: 8px;
+    margin-left: 20px;
+    width: 80%;
+    border-radius: 50px;
+   }
+
+   .paylasimlar .paylasimlartop .paylasimlartopname {
+    
+   width: 90%;
+   margin-top: 25px;
+   }
+.paylasimlar .name{
+     
+     display: inline-block;
+     margin: 0;
+     color: white;
+}
+.paylasimlar .content{
+     
+   height: 20px;
+   margin-left: 20px;
+   color: white;
+   width: 100%;
+    
+}
+.paylasimlar .contentimg {
+    width: 100%;
+   
+}
+.paylasimlar .sharehr {
+    width: 95%;
+    margin-left: 10px;
+  
+}
+.paylasimlar .process {
+    display: flex;
+    width: 100%;
+    
+    margin-bottom: 10px;
+   
+}
+.paylasimlar .processbutton {
+    display: flex;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.paylasimlar .processbutton:hover {
+   border-radius: 10px;
+   background-color: #4b4f56;
+   
+}
+.paylasimlar .writecomment {
+   width: 100%;
+   display: flex;
+   
+}
+.paylasimlar .writecomment div{
+  margin: 1px;
+ }
+ .paylasimlar .writecomment .imgwritecomment{
+    width: 10%;
+   
+    
+ }
+.paylasimlar .writecomment .imgwritecomment img{
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 50px;
+    border-radius: 50px;
+    
+ }
+ .paylasimlar .writecomment .inputwritecomment{
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 4px;
+ }
+ .paylasimlar .writecomment .inputwritecomment input{
+    width: 530px;
+   
+   
+    
+ }
+ .paylasimlar .writecomment .inputwritecomment input::placeholder{
+    color: #9EA1A6;
+ }
+ .paylasimlar .writecomment .inputwritecomment input:focus{
+    outline: none;
+    
+ }
+
+
+ 
